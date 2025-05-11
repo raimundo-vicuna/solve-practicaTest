@@ -6,6 +6,7 @@
         const listItems = Array.from(card.querySelectorAll('.list-group-item'));
         const position = orderAnswer.indexOf(correctOption);
         listItems[position].classList.add('active')
+        // console.log(`Correct Option: ${correctOption}\n Order Answer: ${orderAnswer}\n List Items: ${listItems}\n Position: ${position}`)
         
     });
 
